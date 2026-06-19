@@ -1,0 +1,19 @@
+# CMO.AI — Marketing Strategy Agent Dependencies
+# Install with: pip install -r requirements.txt
+
+# LangChain ecosystem
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-groq>=0.1.6
+langgraph>=0.1.0
+
+# Database
+pymongo>=4.7.0
+
+# API server
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
