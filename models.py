@@ -4,12 +4,6 @@ CMO.AI — Shared Data Models
 ============================================================
 These Pydantic models define the exact shape of data that
 flows between agents through MongoDB.
-
-IMPORTANT FOR TEAM:
-- Branding agent writes BrandProfile to MongoDB
-- Marketing agent reads BrandProfile, writes MarketingStrategy
-- Content agent reads MarketingStrategy from MongoDB
-- Never change field names without telling all team members
 ============================================================
 """
 
