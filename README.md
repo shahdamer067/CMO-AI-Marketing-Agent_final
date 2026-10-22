@@ -76,8 +76,3 @@ Free Groq key: https://console.groq.com
 
 Python, LangGraph, LangChain, Groq (Llama 3.3 70B), FastAPI, MongoDB (PyMongo), Pydantic
 
-## Known limitations
-
-- The conversational intake runs through `MarketingStrategyAgent.run(conversation=[...])`. The `/strategy/generate` endpoint does not accept a conversation yet, so over the API it works with a saved or supplied brand profile.
-- Average order value (50 USD) and campaign length (8 weeks) are fixed defaults.
-- Benchmark constants are static and should be refreshed periodically.
